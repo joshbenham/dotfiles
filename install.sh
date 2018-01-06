@@ -20,6 +20,11 @@ if _uncallable git; then
   _install git
 fi
 
+if _uncallable stow; then
+  _msg "Installing stow"
+  _install stow
+fi
+
 
 _msg
 _msg "And done!"
