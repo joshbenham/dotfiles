@@ -15,10 +15,6 @@ _install() {
     fi
 }
 
-if _uncallable git; then
-  _msg "Installing git"
-  _install git
-fi
 
 if _uncallable stow; then
   _msg "Installing stow"
