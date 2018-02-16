@@ -21,6 +21,8 @@ if _uncallable stow; then
   _install stow
 fi
 
+_msg "Running stow"
+stow arch
 
 _msg
 _msg "And done!"
