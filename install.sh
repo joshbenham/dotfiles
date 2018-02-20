@@ -3,7 +3,7 @@
 export DOTFILES=~/.dotfiles
 set -e
 
-_msg() { printf "\r\033[2K\033[0;32m[ dotfiles ] %s\033[0m\n" "$*"; }
+_msg() { printf "\r\033[2K\033[0;32m[ \$\$\$ ] %s\033[0m\n" "$*"; }
 
 _uncallable() { ! command -v "$1" >/dev/null; }
 
