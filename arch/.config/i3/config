@@ -185,3 +185,8 @@ set $base0D #6fc2ef
 set $base0E #e1a3ee
 set $base0F #deaf8f
 
+
+# i3-gaps
+smart_gaps on
+gaps inner 15
+gaps outer 0
