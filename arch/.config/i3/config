@@ -162,4 +162,5 @@ bar {
 ###############
 
 
-exec --no-startup-id nm-applet
+source $HOME/.config/i3/custom
+source $HOME/.config/i3/colors
