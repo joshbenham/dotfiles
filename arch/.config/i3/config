@@ -166,11 +166,7 @@ bar {
 ###############
 
 
-# .config/i3/custom
-
-exec --no-startup-id nm-applet
-
-# .config/i3/colors
+# Custom Colours
 
 set $base00 #151515
 set $base01 #202020
@@ -190,7 +186,15 @@ set $base0E #e1a3ee
 set $base0F #deaf8f
 
 
-# i3-gaps
+# Gaps and Spacings
+
 smart_gaps on
 gaps inner 15
 gaps outer 0
+
+
+# Start Up Applications
+
+exec --no-startup-id nm-applet
+
+
