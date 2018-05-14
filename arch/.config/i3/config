@@ -189,5 +189,6 @@ client.background       $bg
 
 # Start Up Applications
 
-exec --no-startup-id nm-applet
+exec_always --no-startup-id wal -i ~/Pictures/Wallpapers
+exec_always --no-startup-id nm-applet
 
