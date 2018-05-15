@@ -165,10 +165,13 @@ bar {
 # CUSTOM CODE #
 ###############
 
+# Titlebars
+
+for_window [class="^.*"] border pixel 4
+
 
 # Gaps and Spacings
 
-smart_gaps on
 gaps inner 15
 gaps outer 0
 
