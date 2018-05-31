@@ -35,7 +35,7 @@ font-0 = BitstreamVeraSansMono Nerd Font Mono:pixelsize=9
 
 background = ${colors.color0}
 foreground = ${colors.color7}
-border-bottom-size = 3
+border-bottom-size = 2
 border-bottom-color = ${colors.color2}
 
 modules-left = i3
